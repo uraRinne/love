@@ -17,7 +17,7 @@ if($('#text').val()=="")
 }
 else
 {
-	$.post("http://happybirthday-liulu.ml//js/post.php", { name: $('#name').val(), emails: $('#emails').val(),text:$('#text').val() },
+	$.post("http://happybirthday-liulu.ml/js/post.php", { name: $('#name').val(), emails: $('#emails').val(),text:$('#text').val() },
 	function(data)
 	{
 		$('#text').val('');
