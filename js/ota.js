@@ -40,7 +40,7 @@ $.post("http://happybirthday-liulu.ml/js/get.php",{page:num}, function(data) {
  $('.txtbox').show(500);
 }
 
-var text="Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.";
+var text="人啊，幸福吧！不沉溺在幸福之中……也不对世界感到绝望……";
 var delay=50;
 var i=0;
 function scrollit(){
