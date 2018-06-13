@@ -1,0 +1,335 @@
+.z {
+    display: block;
+    overflow: hidden;
+}
+
+body {
+    background: url(/img/Konachan.jpg) no-repeat center 10px;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    -webkit-text-size-adjust: none
+}
+
+a {
+    color: #09C;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Verdana, Geneva, sans-serif;
+    padding-top: 5px;
+}
+
+#openbtn {
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+    color: #666666;
+    font-size: 13px;
+    font-family:Optima;
+    padding: 7px;
+    -webkit-border-radius: 3px;
+    cursor: pointer;
+    z-index: 11;
+    background: #f2f2f2;
+}
+#openbtn:hover{
+    background: #e34f88;
+    color: #ffffff;
+}
+
+.txtlist li.pdtitle {
+    padding: 3px 7px 3px 7px;
+    font-size: 14px;
+    font-family: Corbel;
+}
+
+#ctime {
+    display: none;
+}
+
+.txtlist li.pdtitle b {
+    font-weight: 100;
+    color: #ccc;
+    font-size: 12px;
+}
+
+#textbox {
+    position: absolute;
+    height: 50px;
+    font-size: 11px;
+    color: #b7b7b7;
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 5px 5px 10px 5px;
+    left: 0px;
+    right: 0px;
+    top: 50%;
+    margin-top: -25px;
+    text-shadow: 0 0 1px #ffffff;
+}
+
+#textbox #txt {
+    width: 620px;
+    text-align: center;
+    margin: 10px auto;
+    height: 14px;
+}
+
+#textbox #fos {
+    height: 14px;
+    display: none;
+    overflow: hidden;
+    font-weight: normal;
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #e3aabe;
+    font-size: 10px;
+    margin: 5px auto 0 auto;
+    text-align: right;
+    width: 605px;
+}
+
+.txtbox {
+    display: none;
+    overflow: hidden;
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    right: 0px;
+    bottom: 0px;
+    background: #fff;
+    position: absolute;
+    z-index: 100;
+    width: 500px;
+    border-radius: 5px 0 0 0;
+}
+
+.pagei {
+    display: none;
+}
+
+.x {
+    cursor: pointer;
+    float: right;
+    font-size: 10px;
+    color: #AAA;
+    font-family: Meiryo;
+}
+
+#ok {
+    padding: 3px 7px 3px 7px;
+    margin-top: 4px;
+}
+
+.mucplay {
+    overflow: hidden;
+    position: absolute;
+    bottom: 25px;
+    width: 300px;
+    height: 30px;
+    left: 25px;
+    border-radius: 5px;
+    z-index: 11;
+}
+
+ul, ul li {
+    padding: 0;
+    margin: 0;
+}
+
+.txtlist li {
+    list-style-type: none;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #f2f2f2;
+    display: block;
+    overflow: hidden;
+}
+
+.txtlist li img {
+    display: block;
+    float: left;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #ddd;
+    padding: 1px;
+    margin-left: 10px;
+    margin-right: 7px;
+}
+
+.r-info {
+    display: block;
+    overflow: hidden;
+    float: left;
+    width: 420px;
+}
+
+.r-info .cen {
+    margin: 0 5px 0 0;
+    font-family: Arial;
+    color: #d33;
+}
+
+.r-info b.time {
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: Corbel;
+    color: #aaa;
+}
+
+.r-info b.email {
+    float: right;
+    color: #ccc;
+    font-weight: normal;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.r-info p {
+    color: #666;
+    line-height: 130%;
+    width: 420px;
+}
+
+.isystem {
+    float: left;
+    text-shadow: -1px -1px 1px #fff;
+    color: #0CF;
+}
+
+.isystem b {
+    color: #CCC;
+    font-weight: 300;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+input.t {
+    border: 1px solid #CCC;
+    background: -webkit-gradient(linear, left top, left 15, from(white), color-stop(4%, #F9F9F9), to(white));
+    background: -moz-linear-gradient(top, white, #F9F9F9 1px, white 15px);
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 150px;
+}
+
+.postbox {
+    float: right;
+    color: #777;
+    display: block;
+    padding: 7px 30px 10px 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#text {
+    display: block;
+-webkit-gradient(linear, left top, left 15, from(white), color-stop(4 %, #F9F9F9), to(white));
+    background: -moz-linear-gradient(top, white, #F9F9F9 1px, white 15px);
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #999;
+    margin-top: 5px;
+}
+
+.white {
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #606060;
+    border: solid 1px #b7b7b7;
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+    background: -moz-linear-gradient(top, #fff, #ededed);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+
+.white:hover {
+    background: #ededed;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+    background: -moz-linear-gradient(top, #fff, #dcdcdc);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+
+.white:active {
+    color: #999;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff));
+    background: -moz-linear-gradient(top, #ededed, #fff);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+}
+
+.pagelistbox {
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #999;
+    display: block;
+    overflow: hidden
+}
+
+.pagelistbox span {
+    display: block;
+    float: left;
+    margin-top: 5px;
+    padding-top: 2px
+}
+
+.pagelistbox .indexPage {
+    background: #6CF;
+    text-align: center;
+    color: #FFF;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    display: block;
+    float: left
+}
+
+.pagelistbox .endPage {
+    background: #8dF;
+    color: #fff
+}
+
+.pagelistbox .nextPage {
+    background: #7cF;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    display: block;
+    float: left;
+}
+
+.pagelistbox a {
+    display: block;
+    border: 1px solid #ddd;
+    color: #36C;
+    float: left;
+    margin: 3px;
+    margin-top: 5px;
+    padding: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    -webkit-text-size-adjust: none;
+    font-size: 11px
+}
+
+.pagelistbox strong {
+    display: block;
+    float: left;
+    border: 1px solid #DDD;
+    margin: 5px;
+    padding: 5px;
+    background: #BBB;
+    color: #fff;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-radius: 5px
+}
