@@ -17,7 +17,7 @@ if($('#text').val()=="")
 }
 else
 {
-	$.post("post.php", { name: $('#name').val(), emails: $('#emails').val(),text:$('#text').val() },
+	$.post("https://kami.im/js/post.php", { name: $('#name').val(), emails: $('#emails').val(),text:$('#text').val() },
 	function(data)
 	{
 		$('#text').val('');
@@ -26,7 +26,7 @@ else
 }
 }
 function getlist(num){
-$.post("get.php",{page:num}, function(data) {
+$.post("https://kami.im/js/get.php",{page:num}, function(data) {
   $(".txtlist").html('<li class="pdtitle"></li>'+data);
   $imgs = $('.oimg');
   $emailcc=$('.email');
