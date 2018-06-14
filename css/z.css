@@ -79,7 +79,7 @@ a {
 #textbox #fos {
     height: 14px;
     display: none;
-    overflow: hidden;
+    overflow: visible;
     font-weight: normal;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     color: #cda6d7;
