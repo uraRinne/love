@@ -73,7 +73,7 @@ a {
     width: 620px;
     text-align: center;
     margin: 10px auto;
-    height: 14px;
+    height: 20px;
 }
 
 #textbox #fos {
@@ -82,8 +82,8 @@ a {
     overflow: hidden;
     font-weight: normal;
     font-family: "Lucida Console", Monaco, monospace;
-    color: #e3aabe;
-    font-size: 10px;
+    color: #d8bfd8;
+    font-size: 15px;
     margin: 5px auto 0 auto;
     text-align: right;
     width: 605px;
