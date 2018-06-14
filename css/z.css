@@ -58,7 +58,7 @@ a {
     position: absolute;
     height: 50px;
     font-size: 15px;
-    color: #95db83;
+    color: #cda6d7;
     text-align: center;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     padding: 5px 5px 10px 5px;
@@ -81,7 +81,7 @@ a {
     display: none;
     overflow: hidden;
     font-weight: normal;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     color: #95db83;
     font-size: 15px;
     margin: 5px auto 0 auto;
